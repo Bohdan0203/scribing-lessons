@@ -2043,7 +2043,7 @@
             resultsObj  = formObj.find( '.form-results' ),
             redirectVal = formObj.find( '[name="redirect"]' ).val();
 
-        if( actionURL != '' && actionURL != undefined ) {
+        /* if( actionURL != '' && actionURL != undefined ) {
             _this.addClass( 'loading' );
             $.ajax({
                 type: 'POST',
@@ -2074,7 +2074,7 @@
                     }
                 }
             });
-        }
+        } */
     }
 
     $("a[href^='#']").click(function() {
