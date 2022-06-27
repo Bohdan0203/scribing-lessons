@@ -968,7 +968,7 @@
     });
 
     /****** Contact form validation on submit ******/
-    $( document ).on( 'click', '.submit', function() {
+   /*  $( document ).on( 'click', '.submit', function() {
         var error       = false,
             captchaFlag = false,
             _this       = $( this ),
@@ -1028,7 +1028,7 @@
             submitAJAXForm( _this );
         }
         return false;
-    });
+    }); */
 
     /****** Contact form validation on blur ******/
     $( document ).on( 'blur', '.required', function() {
